@@ -14,7 +14,6 @@ def health():
 
 
 @app.route('/hello')
-@require_apikey
 def hello():
     return {'hello': 'world'}
 
